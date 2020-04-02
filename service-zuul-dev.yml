@@ -1,6 +1,6 @@
 
 zuul:
-#  ignored-services: app-item #忽略服务
+  ignored-services: '*' #忽略服务
   routes: #定义服务转发规则
     item-service: #item-service这个名字是任意写的
       path: /item-service/** #匹配item-service的请求app-item服务
