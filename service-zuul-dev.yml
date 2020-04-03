@@ -9,3 +9,7 @@ zuul:
     order-service: #名字尽量和业务系统相关
       path: /order-service/** #匹配order-service的请求app-order服务
       service-id: app-orderA #指定Eureka注册中心的服务id
+    order-service2: #名字尽量和业务系统相关
+      path: /order-service2/** #匹配order-service的请求app-order服务
+      service-id: app-order #指定Eureka注册中心的服务id
+  
